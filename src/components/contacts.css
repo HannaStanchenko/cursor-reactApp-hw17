@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.search-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.search-field input[type=text] {
+    width: 200px;
+    height: 25px;
+}
+
+.search-field input[type=checkbox] {
+    accent-color: rgb(28, 128, 0);
+}

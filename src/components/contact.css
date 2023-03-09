@@ -1,0 +1,21 @@
+.contacts_card {
+    width: 50%;
+    height: 90px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 15px ;
+    border-top: 1px solid rgb(133, 133, 133);
+}
+.contacts_card:last-child {
+    border-bottom: 1px solid rgb(133, 133, 133); 
+}
+
+.contacts_card p {
+    margin: 0;
+}
+.contacts_card i {
+    color: rgb(28, 128, 0);
+}
